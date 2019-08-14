@@ -21,7 +21,7 @@ templates:
   utter_working_on_it:
   - text: working on it ...
   utter_goodbye:
-  - text: 再见！
+  - text: Goodbye!
   utter_ask_address:
   - text: Which city?
   utter_ask_date-time:

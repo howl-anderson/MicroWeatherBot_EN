@@ -14,8 +14,6 @@
 - done
 - excuse me
 
-
-
 ## intent:greet
 - hey
 - hello
@@ -61,6 +59,8 @@
 - what about [xiamen](address)
 - what if i'm in [wuhan](address)
 - in [hongkong](address)
+- [hongkong](address)
+- [shanghai](address)
 - in [hangzhou](address)
 - how about [shanghai](address)
 - in [ningbo](address)
