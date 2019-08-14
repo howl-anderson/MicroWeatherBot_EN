@@ -1,0 +1,9 @@
+liaoning
+beijing
+xiamen
+wuhan
+hongkong
+hangzhou
+shanghai
+ningbo
+NYC

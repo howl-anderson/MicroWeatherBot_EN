@@ -1,138 +1,148 @@
 ## intent:goodbye
-- 拜拜
-- 再见
-- 拜
-- 退出
-- 结束
+- goodbye
+- farewell
+- bye
+- have a good day
+- see you
+- quit
+- over
+- take care
+- bye bye
+- see you later
+- alright
+- peace out
+- done
+- excuse me
+
+
 
 ## intent:greet
-- 你好
-- 您好
-- Hello
+- hey
 - hello
-- Hi
+- what's up
+- good morning
+- good afternoon
+- good evening
+- hey man
+- what's going on
+- nice to see you
+- yo
+- howdy
+- sup
+- hiya
 - hi
-- 喂
-- 在么
 
 ## intent:weather
-- 用着摄氏度显示天气
-- 天气
-- 我需要不需要雨裤
-- 我该穿外套吗
-- 去外边要穿外衣吗
-- 去外边要带夹克吗
-- 外边需要雨伞吗
-- 你知道[现在](date-time)外面冷不冷
-- 天气是不是很凉快
-- 我最近的天气是不是很冷
-- 摄氏度天气预报
-- 天气很冷
-- 天气会不会很热
-- 天气会很温和吗
-- 为什么天气那么寒冷
+- show weather in degrees Celsius
+- weather
+- should i wear rain proof pants today
+- should i wear a coat
+- do you think i should wear a coat outside
+- should i bring a jacket outside
+- do i need a umbrella today
+- whether cold or not [now](date-time)
+- is the weather very cool
+- how is the weather recently
+- celsius weather forecast
+- the weather is cold
+- does the weather will be very hot
+- will the weather become warm
+- why the weather is soo cold
+- tell me the weather today
+- how the weather today
+- do you feel cold [now](date-time)
+- do you feel hot [now](date-time)
 
 ## intent:weather_address
-- 告诉我在[广州](address)怎么样
-- 告诉我在[广州](address)
-- 在[辽宁](address)呢
-- 在[北京](address)呢
-- 如何[厦门](address)
-- 还在[武汉](address)呢
-- 在[香港](address)呢
-- 在[杭州](address)
-- 还在[上海](address)
-- 还在[宁波](address)
-- [北京](address)里面会不会阴雨
-- [上海](address)什么天气
-- 不好意思可以帮我查[香港](address)的天气
-- [厦门](address)啥天气
-- [今天](date-time)台中天气如何
-- [上海](address)多热
-- [台北市](address)温度
-- [台南市](address)南区几度
+- tell me how is the weather in the [guangzhou](address)
+- i'm in [guangzhou](address) right now
+- how about [liaoning](address)
+- how about [beijing](address)
+- what about [xiamen](address)
+- what if i'm in [wuhan](address)
+- in [hongkong](address)
+- in [hangzhou](address)
+- how about [shanghai](address)
+- in [ningbo](address)
+- whether [beijing](address) will rain today
+- what is the weather in [shanghai](address)
+- excuse me can you check the weather in [hongkong](address) please
+- what is the weather in [xiamen](address)
+- what is the temperature in [shanghai](address)
 
 ## intent:weather_address_date-time
-- 我要[上海](address)[明天](date-time)的天气
-- [上海](address)[明天](date-time)的天气
-- [上海](address)[昨天](date-time)的天气
-- [上海](address)[前天](date-time)的天气
-- [下个星期五](date-time)在[南京](address)
-- [明天](date-time)在[北京](address)
-- [沈阳](address)[五天后](date-time)
-- [下星期一](date-time)在[北京](address)呢
-- [今天](date-time)在[天津](address)
-- [青岛](address)[明天](date-time)
-- 还要[下星期日](date-time)在[苏州](address)
-- 关于[两天后](date-time)在[上海](address)
-- [三天后](date-time)在[武汉](address)呢
-- [三天后](date-time)[杭州](address)多云吗
-- [十月三号](date-time)[沈阳](address)会下雨吗
-- [明天](date-time)[台北](address)天气
-- [今天](date-time)[台北](address)的天气如何
-- [三天后](date-time)[台北](address)的天气
-- [北京](address)[今天](date-time)的天气如何
-- [杭州](address)[今天](date-time)的天气怎么样
-- [下个星期五](date-time)[台北](address)是不是天气好吗
-- [今天](date-time)[台北](address)天气如何
-- [今天](date-time)[上海](address)的天气
-- [两天前](date-time)[上海](address)的天气如何
-- [今天](date-time)[台北市](address)的天气如何
-- [明天](date-time)[北京](address)我需要不需要雨衣
-- [下星期日](date-time)[北京](address)外边需要毛线帽吗
-- [今天](date-time)[北京](address)去外边要带羊毛袜吗
-- [三月五号](date-time)[北京](address)去外边要穿外衣吗
-- [下个星期五](date-time)我在[厦门](address)需要带伞吗
-- [上海](address)[三天后](date-time)多少度
-- [明天](date-time)[上海](address)的温度如何
-- [今天](date-time)[上海](address)的气温如何
-- [明天](date-time)[马来西亚](address)最近的天气是不是很冷
-- 为什么[下星期一](date-time)[马来西亚](address)天气那么凉快
-- [下星期日](date-time)[马来西亚](address)的天气会很热吗
+- i need [tomorrow](date-time)'s weather in [shanghai](address)
+- [tomorrow](date-time)'s weather in [shanghai](address)
+- [yesterday](date-time)'s weather in [shanghai](address)
+- [the day before yesterday](date-time)'s weather in [shanghai](address)
+- [next friday](date-time)'s weather in [nanjing](address)
+- [tommorow](date-time)'s weather in [beijing](address)
+- [after five days](date-time)'s weather in [nanjing](address)
+- [next monday](date-time)'s weather in [beijing](address)
+- [today](date-time)'s weather in [tianjin](address)
+- [tomorrow](date-time)'s weather in [qingdao](address)
+- [next sunday](date-time)'s weather in [suzhou](address)
+- about [after two days](date-time)'s weather in [shanghai](address)
+- [after three days](date-time)'s weather in [wuhan](address)
+- Is it cloudy in [hangzhou](address)[after three days](date-time)
+- [today](date-time)'s weather in [hangzhou](address)
+- whether [shenyang](address) will rain on [october 30](date-time)
+- how is the weather [today](date-time) in [beijing](address)
+- how is the weather in [beijing](address) [today](date-time)
+- how is the weather in [hangzhou](address) [today](date-time)
+- [today](date-time)'s weather in [shanghai](address)
+- how is the weather in [shanghai](address) [two days ago](date-time)
+- should i wear the rain coat in [beijing](address) [tomorrow](date-time)
+- should i wear the sweater in [beijing](address) [next sunday](date-time)
+- should i bring my woollen socks in [beijing](address) [today](date-time)
+- should i wear coat in [beijing](address) [march 5th](date-time)
+- do i need bring my umbrella in [xiamen](address) [next friday](date-time)
+- what is the temperature in [shanghai](address) [yesterday](date-time)
+- what is the temperature in [shanghai](address) [tomorrow](date-time)
+- what is the temperature in [shanghai](address) [today](date-time)
+- whether the weather in [malaysia](address) [tomorrow](date-time) is very cold
+- why the weather in [malaysia](address) on [next monday](date-time) is so cool
+- does the weather in [malaysia](address) will be very hot on [next monday](date-time)
 
 ## intent:weather_date-time
-- 怎么能[下个星期日](date-time)
-- 还需要[昨天](date-time)
-- 我还要[昨天](date-time)
-- [明天](date-time)
-- 我还很想[一月一号](date-time)
-- 明天[如何](date-time:明天)
-- [星期六](date-time)呢
-- 现在[明天](date-time)
-- 关于[两天后](date-time)
-- 会不会[前天](date-time)
-- 还要[三天前](date-time)
-- 能不能[下星期五](date-time)
-- 还要[明天](date-time)
-- 稍后[晚上](date-time)会下雨吗
-- [今天](date-time)会不会晴朗吗
-- [昨天](date-time)几度
-- [9/4](date-time)天气如何
-- [明天](date-time)天气多少摄氏度
-- [今天](date-time)天气
-- [昨天](date-time)什么天气
-- [明天](date-time)要不要手套
-- [今天](date-time)去外边要穿薄毛衣吗
-- [明天](date-time)去外边要带雨伞吗
-- [两天后](date-time)我需要不需要雨裤
-- [下星期一](date-time)外边需要墨镜吗
-- [明天](date-time)的天气会很温和吗
-- [今天](date-time)天气很热耶
-- [上海](address)啥温度
-- [台南市南区](address)现在几度
-- 就让你问他[今天](date-time)天气几度
-- [两天后](date-time)的天气会不会很寒冷吗
-- [明天](date-time)的天气是不是很暖吗
+- what about [next sunday](date-time)
+- also need [yesterday](date-time)
+- i also need [yesterday](date-time)
+- [tomorrow](date-time)
+- i really want [january 1st](date-time)
+- what about [tomorrow](date-time)
+- [on saturday](date-time)
+- about [two days later](date-time)
+- maybe [the day before yesterday](date-time)
+- still [three days ago](date-time)
+- may i have [next friday](date-time)
+- also need [tomorrow](date-time)
+- whether will rain at later [night](date-time)
+- whether [today](date-time) will become sunny
+- how is the temperature [yesterday](date-time)
+- - how is the temperature [tomorrow](date-time)
+- how is the weather on [9/4](date-time)
+- what is Celsius degree will be [tomorrow](date-time)
+- what is the weather [today](date-time)
+- weather [today](date-time)
+- what is the weather [yesterday](date-time)
+- should i wear my gloves [tomorrow](date-time)
+- if i go outside [today](date-time) do i need my sweater
+- should i bring my umbrella [tomorrow](date-time)
+- do i need wear my rain proof pants [after two days](date-time)
+- do i need wear my sunglasses [next monday](date-time)
+- will weather will turn to warm [tomorrow](date-time)
+- [today](date-time) is really hot
+- what's the temperature in [shanghai](address)
+- i'm asking you the temperature [today](date-time)
+- does the weather will turn to cold [after two days](date-time)
+- whether [tomorrow](date-time) will become very warm
 
-## synonym:下个星期一
-- 下星期一
+## synonym:today
+- morning
+- noon
+- night
+- afternoon
 
-## synonym:今天
-- 早上
-- 中午
-- 晚上
-- 傍晚
-- 今日
-
-## synonym:明天
-- 明日
+## lookup:additional_currencies  <!-- no list to specify lookup table file -->
+data/city_list.txt

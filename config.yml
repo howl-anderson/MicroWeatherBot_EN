@@ -1,23 +1,21 @@
-# Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
-language: "zh"
-
+language: en
 pipeline:
-  - name: "rasa_contrib.nlu.utils.tensorflow_utils.TensorflowNLP"
-#  - name: "rasa_contrib.nlu.debugger.tensorflow_debugger.TensorflowDebugger"
-  - name: "rasa_contrib.nlu.extractors.bilstm_crf_tf_entity_extractor.BilstmCrfTensorFlowEntityExtractor"
-    max_steps: 600
-#    train_hook:
-#      - class: "rasa_nlu_addons.debugger.hooks.TensorObserveHook"
-#        params:
-#          key: "34FRerfFefsdKer4hdF"
+- name: SpacyNLP
+  model: "en_core_web_md"
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
+- name: CountVectorsFeaturizer
+- name: SklearnIntentClassifier
+- name: CRFEntityExtractor
+  features: [["low", "title"], ["bias", "suffix3"], ["upper", "pos", "pos2"]]
+  BILOU_flag: true
+- name: EntitySynonymMapper
 
-  - name: "rasa_contrib.nlu.classifiers.text_cnn_tf_classifier.TextCnnTensorFlowClassifier"
-    max_steps: 600
-
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: MemoizationPolicy
-  - name: KerasPolicy
-  - name: MappingPolicy
+- epochs: 50
+  max_history: 6
+  name: KerasPolicy
+- max_history: 6
+  name: AugmentedMemoizationPolicy
+- name: FormPolicy
+- name: MappingPolicy
