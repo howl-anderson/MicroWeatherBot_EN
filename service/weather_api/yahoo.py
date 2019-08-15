@@ -27,7 +27,7 @@ class YahooWeatherAPI(WeatherAPIBase):
         )
 
     def get_weather_by_city(self, city, *args, **kwargs):
-        self.data.get_yahoo_weather_by_city("tehran", Unit.celsius)
+        self.data.get_yahoo_weather_by_city(city, Unit.celsius)
         return self._forecasts_to_condition(self.data.forecasts)
 
     @staticmethod
