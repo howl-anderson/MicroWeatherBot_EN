@@ -18,4 +18,8 @@ policies:
 - max_history: 6
   name: AugmentedMemoizationPolicy
 - name: FormPolicy
+- name: FallbackPolicy
+  nlu_threshold: 0.5
+  core_threshold: 0.5
+  fallback_action_name: "utter_default_fallback"
 - name: MappingPolicy

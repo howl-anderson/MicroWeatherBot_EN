@@ -28,7 +28,7 @@ templates:
   - text: What's the date？
   utter_report_weather:
   - text: '{matches}'
-  utter_default:
+  utter_default_fallback:
   - text: Sorry, system don't understand your utterence.
 actions:
 - action_report_weather
@@ -38,3 +38,4 @@ actions:
 - utter_greet
 - utter_report_weather
 - utter_working_on_it
+- utter_default_fallback
