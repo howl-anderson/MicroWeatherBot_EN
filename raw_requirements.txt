@@ -1,5 +1,5 @@
 -e ../ioflow
-paddlepaddle==1.4.1
+paddlepaddle==2.4.0
 -e ../seq2annotation
 -e ../seq2label
 -e ../../Repositories/tokenizer_tools
